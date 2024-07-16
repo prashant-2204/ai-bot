@@ -42,5 +42,5 @@ app.post('/ai', upload.single('file'), async (req, res) => {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log('Server started on port',{PORT});
+  console.log('Server started on port');
 });
