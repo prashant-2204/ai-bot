@@ -7,7 +7,6 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const path = require('path');
 const dotenv = require('dotenv');
 dotenv.config();
-app.use(express.static(path.join(__dirname, 'dist')));
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
